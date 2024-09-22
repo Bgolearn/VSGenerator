@@ -19,11 +19,6 @@ You can install the package using pip:
 pip install VSGenerator
 ```
 
-## Features
-
-- **Dynamic Virtual Space Generation**: Generate synthetic training data using the SMOGN algorithm to improve model performance.
-- **Flexible Network Architecture**: Easily configurable neural network parameters such as input dimensions, target dimensions, latent space dimensions, and more.
-- **Early Stopping**: Includes a patience mechanism to prevent overfitting and enhance model training efficiency.
 
 ## Usage
 
