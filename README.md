@@ -1,4 +1,4 @@
-Here's a structured and professional `README.md` file for the GitHub repository:
+
 # VSGenerator
 
 **DVSNet: Dynamic Virtual Space Generation Neural Network**
