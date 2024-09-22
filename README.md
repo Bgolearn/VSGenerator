@@ -86,7 +86,7 @@ If you encounter any issues or have suggestions for improving the code, feel fre
 
 - Open an issue in the [GitHub repository](https://github.com/Bin-Cao/Bgolearn)
 - Contact the author:
-  - **Bin Cao** (binjacobcao@gmail.com)
+  - **Bin Cao** 
   - **Affiliation**: Guangzhou Municipal Key Laboratory of Materials Informatics, Advanced Materials Thrust, Hong Kong University of Science and Technology (Guangzhou), Guangdong, China
   - **Email**: bcao686@connect.hkust-gz.edu.cn
 
