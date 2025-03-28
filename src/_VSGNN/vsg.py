@@ -38,8 +38,8 @@ def build_vsg(input_dim, y_dim, latent_dim, gen_num):
     _input = Input(shape=(input_dim,))
     y = Input(shape=(y_dim,))
 
-    x = Dense(16, activation='relu')(_input)
-    x = Dense(32, activation='relu')(x)
+    x = Dense(8, activation='relu')(_input)
+    x = Dense(12, activation='relu')(x)
     h = SelfAttentionBlock(units=16)(x)  
 
     z_mean = Dense(latent_dim)(h)
@@ -49,7 +49,7 @@ def build_vsg(input_dim, y_dim, latent_dim, gen_num):
     z_cond = tf.concat([z, y_expanded], axis=1)
 
     # Decoder
-    h_decoded = Dense(32, activation='relu')(z_cond)
+    h_decoded = Dense(12, activation='relu')(z_cond)
     h_decoded = Dense(latent_dim+y_dim, activation='relu')(h_decoded)
     h_decoded =  Add()([h_decoded, z_cond])
     _h_decoded = Dense(latent_dim+y_dim, activation='relu')(h_decoded)
@@ -79,7 +79,7 @@ def build_vsg(input_dim, y_dim, latent_dim, gen_num):
 # build model 
 input_dim = 4  # dim of the input
 y_dim = 1 # dim of the target
-latent_dim = 15  # dim of the latent variables
+latent_dim = 5  # dim of the latent variables
 gen_num = 100
 
 vsg = build_svae(input_dim, y_dim, latent_dim,gen_num)

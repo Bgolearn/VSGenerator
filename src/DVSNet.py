@@ -23,7 +23,7 @@ def _InvScaler(data,mean,var):
     return data * np.sqrt(var) + mean
     
 
-def train(data_file, input_dim, y_dim, latent_dim, epochs=500, batch_size=32,patience=20,SMOGN = False, k_neighbors=10, noise_factor=0.1):
+def train(data_file, input_dim, y_dim, latent_dim=5, epochs=500, batch_size=32,patience=20,SMOGN = False, k_neighbors=10, noise_factor=0.1):
     """
     ================================================================
     DVSNet : Dynamic Virtual Space generation neural Network.
@@ -32,9 +32,9 @@ def train(data_file, input_dim, y_dim, latent_dim, epochs=500, batch_size=32,pat
     Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511400, Guangdong, China
     ================================================================
     Please feel free to open issues in the Github :
-    https://github.com/Bin-Cao/Bgolearn
+    https://github.com/Bgolearn/VSGenerator
     or 
-    contact Mr.Bin Cao (bcao686@connect.hkust-gz.edu.cn)
+    contact Mr.Bin Cao
     in case of any problems/comments/suggestions in using the code. 
     ==================================================================
     DVSNet is an associated neural network for the Bgolearn project.
@@ -68,7 +68,7 @@ def train(data_file, input_dim, y_dim, latent_dim, epochs=500, batch_size=32,pat
     data_file = './dataset/traindata.csv'
     input_dim = 4 
     y_dim = 1
-    latent_dim = 15 
+    latent_dim = 5 
     epochs = 500
     batch_size = 16 
     patience = 20
@@ -128,15 +128,6 @@ def generator(data_file,input_dim, y_dim, latent_dim,step_list,boundary,filter_m
     Guangzhou Municipal Key Laboratory of Materials Informatics, Advanced Materials Thrust,
     Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511400, Guangdong, China
     ================================================================
-    Please feel free to open issues in the Github :
-    https://github.com/Bin-Cao/Bgolearn
-    or 
-    contact Mr.Bin Cao (bcao686@connect.hkust-gz.edu.cn)
-    in case of any problems/comments/suggestions in using the code. 
-    ==================================================================
-    DVSNet is an associated neural network for the Bgolearn project.
-    Thank you for choosing Bgolearn for material design. 
-    ================================================================
     FUNCTION generator :
 
     :param data_file: the file location of the desired data
@@ -165,7 +156,7 @@ def generator(data_file,input_dim, y_dim, latent_dim,step_list,boundary,filter_m
     data_file = './dataset/desireddata.csv'
     input_dim = 4 
     y_dim = 1
-    latent_dim = 15 
+    latent_dim = 5 
     step_list = [0.5,5,50,1]
     boundary = [[0.5, 2.5],[5,30],[350,850],[1,8]]
     gen_num = 100
