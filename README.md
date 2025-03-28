@@ -30,7 +30,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 For bug reports, feature requests, or general inquiries, feel free to:  
 
-- **Open an issue** in the [GitHub repository](https://github.com/Bin-Cao/Bgolearn)  
+- **Open an issue** in the `GitHub repository`
 - **Contact the author**:  
   - **Bin Cao**  
   - **Affiliation**: Guangzhou Municipal Key Laboratory of Materials Informatics, Advanced Materials Thrust, Hong Kong University of Science and Technology (Guangzhou), Guangdong, China  
