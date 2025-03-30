@@ -3,7 +3,6 @@
 # VSGenerator
 
 **DVSNet: Dynamic Virtual Space Generation Neural Network**
-
 [![PyPI Version](https://img.shields.io/pypi/v/VSGenerator.svg)](https://pypi.org/project/VSGenerator/)
 
 ## Overview
