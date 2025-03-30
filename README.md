@@ -19,7 +19,7 @@ pip install VSGenerator
 
 ## Usage
 
-Refer to the [`./tutorial`](./tutorial) directory for detailed usage examples.
+Refer to the [`./tutorial`](https://github.com/Bgolearn/VSGenerator/blob/main/tutorial/VSGenerator_Tutorial.ipynb) directory for detailed usage examples.
 
 ## License
 
