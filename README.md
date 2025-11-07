@@ -43,14 +43,6 @@ Refer to the [`./tutorial`](https://github.com/Bgolearn/VSGenerator/blob/main/tu
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
-## Contact
 
-For bug reports, feature requests, or general inquiries, feel free to:  
-
-- **Open an issue** in the `GitHub repository`
-- **Contact the author**:  
-  - **Bin Cao**  
-  - **Affiliation**: Guangzhou Municipal Key Laboratory of Materials Informatics, Advanced Materials Thrust, Hong Kong University of Science and Technology (Guangzhou), Guangdong, China  
-  - **Email**: bcao686@connect.hkust-gz.edu.cn  
 
 We appreciate your interest in `VSGenerator` and `Bgolearn`—happy researching! 🚀
