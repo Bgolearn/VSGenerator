@@ -19,7 +19,7 @@
 
 ---
 
-**Associated publication**
+**Paper ：**
 [Science Bulletin](https://www.sciencedirect.com/science/article/pii/S2095927325012678)
 
 # VSGenerator
