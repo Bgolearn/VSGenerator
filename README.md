@@ -19,10 +19,10 @@
 
 ---
 
-**Paper ：**
+### **Paper ：**
 [Science Bulletin](https://www.sciencedirect.com/science/article/pii/S2095927325012678)
 
-# VSGenerator
+
 
 **DVSNet: Dynamic Virtual Space Generation Neural Network** [![PyPI Version](https://img.shields.io/pypi/v/VSGenerator.svg)](https://pypi.org/project/VSGenerator/)
 
@@ -114,8 +114,6 @@ If you use `VSGenerator` or DVSNet in your research, please cite the associated 
   doi     = {10.1016/j.scib.2025.12.021},
   url     = {https://www.sciencedirect.com/science/article/pii/S2095927325012678?via%3Dihub#m0005}
 }
-
-
 ```
 
 
