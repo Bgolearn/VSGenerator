@@ -19,8 +19,7 @@
 
 ---
 
-### **Paper ：**
-[Science Bulletin](https://www.sciencedirect.com/science/article/pii/S2095927325012678)
+### **Paper ：[Science Bulletin](https://www.sciencedirect.com/science/article/pii/S2095927325012678)**
 
 
 
