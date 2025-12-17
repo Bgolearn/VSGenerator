@@ -22,7 +22,7 @@
 ## Dynamic Virtual Space Generation Neural Network
 ### **Paper ：[Science Bulletin](https://www.sciencedirect.com/science/article/pii/S2095927325012678)**
 
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/VSGenerator?period=total\&units=INTERNATIONAL_SYSTEM\&left_color=BLACK\&right_color=GREEN\&left_text=downloads)](https://pepy.tech/projects/VSGenerator)  [![PyPI Version](https://img.shields.io/pypi/v/VSGenerator.svg)](https://pypi.org/project/VSGenerator/)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/VSGenerator?period=total\&units=INTERNATIONAL_SYSTEM\&left_color=BLACK\&right_color=GREEN\&left_text=downloads)](https://pepy.tech/projects/VSGenerator)  [![PyPI Version](https://img.shields.io/pypi/v/VSGenerator.svg)](https://pypi.org/project/VSGenerator/) [![Booklet](https://img.shields.io/badge/Booklet-Documentation-green?style=flat&labelColor=black)](https://bgolearn.netlify.app/)
 
 
 
